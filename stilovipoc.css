@@ -1,0 +1,78 @@
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+header{
+    padding: 10px;
+    text-align: center;
+    background-color: aquamarine;
+}
+nav{
+    height: 40px;
+    background-color: black;
+}
+nav ul{
+    overflow: hidden; 
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    background-color: black;
+}
+nav ul li{
+    float: left;
+}
+nav li a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+ li a:hover{
+    background-color: #4CAF50;
+}
+
+nav .current{
+    background-color:  #4CAF50;
+}
+.col{
+    padding: 10px;
+    float:left;
+}
+.col.strana{
+    width: 25%;
+}
+.col.glavna{
+    width: 50%;
+}
+.col.pola{
+     width: 50%
+ }
+.red:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .col.strana, .col.glavna, .col.pola{
+      width: 100%;
+    }
+  }
+ .naslov{
+     text-align: center;
+ } 
+ .nn{
+     text-align: left
+ }
+ .col.pola{
+     width: 50%
+ }
+  
